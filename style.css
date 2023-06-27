@@ -1,0 +1,518 @@
+head{
+  width: 100%;
+}
+.flude {
+  background-color: rgb(223, 245, 223);
+}
+
+.underline {
+  display: flex;
+  justify-content: space-evenly;
+  text-decoration: none;
+}
+.paystack {
+  font-size: 20px;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.butt {
+  color: white;
+  background-color: rgb(3, 118, 3);
+  border-radius: 5px;
+  height: 50px;
+  width: 250px;
+}
+
+.abutt {
+  color: white;
+}
+
+.nigerflag {
+  height: 15px;
+  width: 20px;
+  margin-top: 7px;
+}
+
+.headh1 {
+  margin-top: 100px;
+  margin-left: 90px;
+
+}
+
+.headfut {
+  margin-top: 180px;
+  margin-left: 70px;
+  justify-content: space-evenly;
+}
+
+.futimg{
+    display: flex;
+    justify-content: space-evenly;
+    height: 25px;
+    margin-left: -70px;
+}
+
+.futlast{
+    text-align: center;
+}
+
+.body1 {
+  margin-top: 150px;
+  margin-left: 90px;
+  background-image: -moz-linear-gradient(rgba(0, 4));
+}
+
+.headh1{
+  animation-name: move-up;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+}
+
+@keyframes move-up {
+0%{
+  opacity: 0;
+ transform: translateY(100%);
+}
+100%{
+  opacity: 1;
+  transform: translateY(0);
+}
+}
+
+.fa-sharp{
+  color: rgb(3, 118, 3);
+  background-color: rgb(223, 245, 223);
+  width: 40px;
+  height: 30px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.apisdoc{
+  padding-left: 3%;
+}
+
+p{
+  font-size: 20px;
+}
+
+.protect{
+  margin-top: 8%;
+}
+
+.fstvideo{
+  font-size: 300px;
+  height: 800px;
+}
+
+.protect{
+  animation-name: move-up;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+}
+
+@keyframes move-up {
+0%{
+  opacity: 0;
+ transform: translateY(100%);
+}
+100%{
+  opacity: 1;
+  transform: translateY(0);
+}
+}
+
+.navicon{
+  color: lightskyblue;
+}
+
+h1{
+  font-size: 53px; 
+}
+
+.trusted{
+  background-color: rgb(223, 245, 223);
+  padding-left: 10%;
+  height: 125vh;
+  margin-top: 10%;
+}
+
+.trustedh1{
+  margin-top: 9%;
+}
+
+.branchimg{
+  width: 150px;
+  margin-top: 3%;
+}
+
+.globaly{
+  /* height: 43vh;
+  background-color: white;
+  width: 600px; */
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: -70px;
+  
+}
+
+.globaly2{
+  background-color: white;
+  height: 115%;
+  width:28%;
+  padding-left: 3%;
+  padding-top: 3%;
+  border-radius: 10px;
+}
+
+.powering{
+  padding-left: 10%;
+  margin-top: 10%;
+}
+
+.point{
+  width: 100px;
+  cursor: pointer;
+}
+
+.toreach{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.powergrowth{
+  height: 90vh;
+}
+
+.trusted2{
+  background-color: rgb(223, 245, 223);
+  padding-left: 10%;
+  height: 110vh;
+}
+.backedby{
+  padding-top: 20vh;
+}
+
+.imgflex{
+  display: flex;
+}
+
+.branchimg{
+  width: 50px;
+}
+
+.futter{
+  margin-left: 10%;
+  margin-top: 10%;
+}
+
+.createfut{
+  margin-left: 70%;
+  margin-top: -100px;
+}
+
+.futtermn{
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-evenly;
+  height: 60vh;
+  margin-right: 10%;
+}
+
+.futlink{
+  display: grid;
+  font-size: 20px;
+  justify-content: baseline;
+}
+
+.futright{
+  display: grid;
+  height: 40vh;
+  font-size: 20px;
+}
+
+.lastfut{
+  display: flex;
+  justify-content: space-evenly;
+  height: 60vh;
+ 
+}
+
+.hprotect{
+  margin-left: -8%;
+}
+
+.hdelight{
+  margin-left: -6%;
+}
+
+@media screen and (max-width: 769px)
+{
+  head{
+    width: 100%;
+  }
+  body{
+    overflow: auto;
+  }
+  .flude {
+    background-color: rgb(223, 245, 223);
+  }
+  
+  .underline {
+    display: grid;
+    justify-content: space-evenly;
+    text-decoration: none;
+  }
+  .paystack {
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .butt {
+    color: white;
+    background-color: rgb(3, 118, 3);
+    border-radius: 5px;
+    height: 50px;
+    width: 250px;
+  }
+  
+  .abutt {
+    color: white;
+  }
+  
+  .nigerflag {
+    height: 15px;
+    width: 20px;
+    margin-top: 7px;
+    display: no;
+  }
+  
+  .headh1 {
+    margin-top: 100px;
+    margin-left: 90px;
+  
+  }
+  
+  .headfut {
+    margin-top: 180px;
+    margin-left: 70px;
+    justify-content: space-evenly;
+  }
+  
+  .futimg{
+      display: flex;
+      justify-content: space-evenly;
+      height: 25px;
+      margin-left: -70px;
+  }
+  
+  .futlast{
+      text-align: center;
+  }
+  
+  .body1 {
+    margin-top: 150px;
+    margin-left: 90px;
+    background-image: -moz-linear-gradient(rgba(0, 4));
+  }
+  
+  .headh1{
+    animation-name: move-up;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+  }
+  
+  @keyframes move-up {
+  0%{
+    opacity: 0;
+   transform: translateY(100%);
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(0);
+  }
+  }
+  
+  .fa-sharp{
+    color: rgb(3, 118, 3);
+    background-color: rgb(223, 245, 223);
+    width: 40px;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  .apisdoc{
+    padding-left: 3%;
+  }
+  
+  p{
+    font-size: 20px;
+  }
+  
+  .protect{
+    margin-top: 8%;
+  }
+  
+  .fstvideo{
+    font-size: 300px;
+    height: 800px;
+  }
+  
+  .protect{
+    animation-name: move-up;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+  }
+  
+  @keyframes move-up {
+  0%{
+    opacity: 0;
+   transform: translateY(100%);
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(0);
+  }
+  }
+  
+  .navicon{
+    color: lightskyblue;
+  }
+  
+  h1{
+    font-size: 53px; 
+  }
+  
+  .trusted{
+    background-color: rgb(223, 245, 223);
+    padding-left: 10%;
+    height: 125vh;
+    margin-top: 10%;
+  }
+  
+  .trustedh1{
+    margin-top: 9%;
+  }
+  
+  .branchimg{
+    width: 150px;
+    margin-top: 3%;
+  }
+  
+  .globaly{
+    /* height: 43vh;
+    background-color: white;
+    width: 600px; */
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -70px;
+    
+  }
+  
+  .globaly2{
+    background-color: white;
+    height: 115%;
+    width:28%;
+    padding-left: 3%;
+    padding-top: 3%;
+    border-radius: 10px;
+  }
+  
+  .powering{
+    padding-left: 10%;
+    margin-top: 10%;
+  }
+  
+  .point{
+    width: 100px;
+    cursor: pointer;
+  }
+  
+  .toreach{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .powergrowth{
+    height: 90vh;
+  }
+  
+  .trusted2{
+    background-color: rgb(223, 245, 223);
+    padding-left: 10%;
+    height: 110vh;
+  }
+  .backedby{
+    padding-top: 20vh;
+  }
+  
+  .imgflex{
+    display: flex;
+  }
+  
+  .branchimg{
+    width: 50px;
+  }
+  
+  .futter{
+    margin-left: 10%;
+    margin-top: 10%;
+  }
+  
+  .createfut{
+    margin-left: 70%;
+    margin-top: -100px;
+  }
+  
+  .futtermn{
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    height: 60vh;
+    margin-right: 10%;
+  }
+  
+  .futlink{
+    display: grid;
+    font-size: 20px;
+    justify-content: baseline;
+  }
+  
+  .futright{
+    display: grid;
+    height: 40vh;
+    font-size: 20px;
+  }
+  
+  .lastfut{
+    display: flex;
+    justify-content: space-evenly;
+    height: 60vh;
+   
+  }
+  
+  .hprotect{
+    margin-left: -8%;
+  }
+  
+  .hdelight{
+    margin-left: -6%;
+  }
+}
+
+
