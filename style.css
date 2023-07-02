@@ -24,8 +24,8 @@ a {
   color: white;
   background-color: rgb(3, 118, 3);
   border-radius: 5px;
-  height: 50px;
-  width: 250px;
+  height: 45px;
+  width: 200px;
 }
 
 .abutt {
@@ -95,20 +95,21 @@ a {
 }
 
 .apisdoc{
-  padding-left: 3%;
+  padding-left: 1%;
 }
 
-p{
+/* p{
   font-size: 20px;
-}
+} */
 
 .protect{
   margin-top: 8%;
 }
 
 .fstvideo{
-  font-size: 300px;
-  height: 800px;
+  height: 85vh;
+  width: 100%;
+
 }
 
 .protect{
@@ -133,9 +134,9 @@ p{
   color: lightskyblue;
 }
 
-h1{
+/* h1{
   font-size: 53px; 
-}
+} */
 
 .trusted{
   background-color: rgb(223, 245, 223);
@@ -159,7 +160,7 @@ h1{
   width: 600px; */
   display: flex;
   justify-content: space-evenly;
-  margin-left: -70px;
+  margin-left: -60px;
   
 }
 
@@ -178,7 +179,7 @@ h1{
 }
 
 .point{
-  width: 100px;
+  width: 80px;
   cursor: pointer;
 }
 
@@ -194,7 +195,7 @@ h1{
 .trusted2{
   background-color: rgb(223, 245, 223);
   padding-left: 10%;
-  height: 110vh;
+  height: 120vh;
 }
 .backedby{
   padding-top: 20vh;
@@ -228,14 +229,12 @@ h1{
 
 .futlink{
   display: grid;
-  font-size: 20px;
   justify-content: baseline;
 }
 
 .futright{
   display: grid;
   height: 40vh;
-  font-size: 20px;
 }
 
 .lastfut{
@@ -359,9 +358,9 @@ h1{
     padding-left: 3%;
   }
   
-  p{
+  /* p{
     font-size: 20px;
-  }
+  } */
   
   .protect{
     margin-top: 8%;
@@ -394,10 +393,10 @@ h1{
     color: lightskyblue;
   }
   
-  h1{
+  /* h1{
     font-size: 53px; 
   }
-  
+   */
   .trusted{
     background-color: rgb(223, 245, 223);
     padding-left: 10%;
@@ -426,7 +425,6 @@ h1{
   
   .globaly2{
     background-color: white;
-    height: 115%;
     width:28%;
     padding-left: 3%;
     padding-top: 3%;
@@ -496,13 +494,14 @@ h1{
   .futright{
     display: grid;
     height: 40vh;
-    font-size: 20px;
+    /* font-size: 20px; */
   }
   
   .lastfut{
     display: flex;
     justify-content: space-evenly;
     height: 60vh;
+    margin-right: 10px;
    
   }
   
